@@ -130,6 +130,8 @@ body {
 @media (min-width: 768px) {
     .main {
         min-height: 100vh;
+        margin: 0 auto;
+        max-width: 770px;
         display: grid;
         grid-template-columns: 1fr 1fr;
         place-content: center;
